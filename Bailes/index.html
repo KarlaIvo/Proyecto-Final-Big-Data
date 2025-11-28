@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de Bailes Tradicionales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💃 Detector de Bailes Tradicionales</h1>
+        <p>Selecciona un baile y usa tu cámara para detectar las poses</p>
+        
+        <!-- Selector de modelos -->
+        <div class="model-selector">
+            <h3>🎭 Selecciona un Baile:</h3>
+            <div class="model-buttons">
+    <button type="button" onclick="selectModel('campeche')" class="model-btn active" data-model="campeche">
+        🎵 Baile Campeche
+    </button>
+    <button type="button" onclick="selectModel('polkas')" class="model-btn" data-model="polkas">
+        💃 Polkas
+    </button>
+    <button type="button" onclick="selectModel('Artesa')" class="model-btn" data-model="Artesa">
+        🎭 Artesa
+    </button>
+    <button type="button" onclick="selectModel('Costa_chica')" class="model-btn" data-model="Costa_chica">
+        🌊 Costa Chica
+    </button>
+    <button type="button" onclick="selectModel('Huapangos_slp')" class="model-btn" data-model="Huapangos_slp">
+        🎻 Huapangos SLP
+    </button>
+    <button type="button" onclick="selectModel('Huapangos_v')" class="model-btn" data-model="Huapangos_v">
+        🎻 Huapangos V
+    </button>
+    <button type="button" onclick="selectModel('Tlacotlalpan')" class="model-btn" data-model="Tlacotlalpan">
+        🌅 Tlacotlalpan
+    </button>
+</div>
+            </div>
+            <div id="currentModel" class="current-model">
+                Modelo actual: <strong>Baile Campeche</strong>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button type="button" onclick="init()" id="startBtn">Iniciar Cámara</button>
+            <button type="button" onclick="stopWebcam()" id="stopBtn" disabled>Detener Cámara</button>
+        </div>
+        
+        <div id="status" class="status status-ready">
+            Selecciona un baile y presiona "Iniciar Cámara"
+        </div>
+        
+        <div class="camera-container">
+            <canvas id="canvas"></canvas>
+        </div>
+        
+        <div class="predictions-container">
+            <h3>Resultados de la clasificación - <span id="currentModelName">Baile Campeche</span>:</h3>
+            <div id="label-container" class="predictions"></div>
+        </div>
+    </div>
+
+    <!-- Scripts de TensorFlow y Teachable Machine -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+    
+    <!-- Nuestro archivo JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
