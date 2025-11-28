@@ -4,6 +4,7 @@
 1. [Introducción](#introducción)
 2. [Explicación del proyecto](#Explicacion)
 3. [Instrucciones](#Instrucciones)
+4. [Link Video](#Link_Video)
 
 ## Introducción
 En este proyecto realizamos un modelo con Teachable Machine, en mi caso, de danza Folklorica que te dice, al elegir la región, si estas haciendo correctamente el paso o no
@@ -18,9 +19,13 @@ Este modelo serviría para el momento de estar en casa realizando los ensayos o 
 4. `Paso`: Que se ponga la pagina, dar permiso de usar la camara, seleccionar el estado o region de la cual se evaluara el baile y activar la camara en el boton correspondiente.
 5. `Paso`: Alejarse para verse completo de las rodillas a la cabeza y hacer la pose correspondiente a la seleccion.
 
-6. Opcional: si se quiere probar utilizar esta como ejemplos:
+6. Opcional: si se quiere probar utilizar esta como ejemplos de pose a realizar:
+   Haupangos_v
    <p align="left">
-   <img src="assets/imagenes/bc.png">
+   <img src="Huapango.jpg">
    </p>
+   o buscar una de las demas regiones que se encuentran en el modelo
+
+## Link Video
 
 
