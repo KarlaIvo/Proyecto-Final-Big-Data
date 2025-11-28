@@ -2,13 +2,14 @@
 
 ## Índice
 1. [Introducción](#introducción)
-2. [Explicacion del proyecto](#Explicacion)
+2. [Explicación del proyecto](#Explicacion)
 3. [Instrucciones](#Instrucciones)
 
 ## Introducción
-En este proyecto realizamos un modelo con Teachable Machine, en mi caso, de danza Folklorica que te dice, al elegir la region, si estas haciendo correctamente el paso o no
+En este proyecto realizamos un modelo con Teachable Machine, en mi caso, de danza Folklorica que te dice, al elegir la región, si estas haciendo correctamente el paso o no
 
-
+## Explicación
+Este modelo serviría para el momento de estar en casa realizando los ensayos o bien cuando un maestro no pueda estar haciendo las correcciones pertinentes con respecto a la postura del baile que se está efectuando, lo que llevaría a un aprendizaje de manera autónoma y sencilla. 
 
 ## Instrucciones
 1. `Paso`: Descargamos la carpeta que dice bailes en el apartado de arriba donde 
@@ -18,6 +19,8 @@ En este proyecto realizamos un modelo con Teachable Machine, en mi caso, de danz
 5. `Paso`: Alejarse para verse completo de las rodillas a la cabeza y hacer la pose correspondiente a la seleccion.
 
 6. Opcional: si se quiere probar utilizar esta como ejemplos:
-   
+   <p align="left">
+   <img src="assets/imagenes/bc.png">
+   </p>
 
 
