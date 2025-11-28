@@ -26,6 +26,6 @@ Este modelo serviría para el momento de estar en casa realizando los ensayos o 
    </p>
    o buscar una de las demas regiones que se encuentran en el modelo
 
-## Link Video
-
+## Link Video Del Proyecto
+https://youtu.be/0dilIslmxE0
 
